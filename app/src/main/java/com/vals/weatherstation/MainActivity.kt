@@ -15,8 +15,9 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    val CITY: String = "mapusa,goi"
-    val API: String = "8118ed6ee68db2debfaaa5a44c832918"
+    val CITY: String = "ENTER YOUR CITY NAME"
+    val API: String = "API KEY"
+    //API key that is generated from Open weather.(https://openweathermap.org/api)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
